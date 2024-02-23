@@ -1,0 +1,245 @@
+@font-face {
+    font-family: 'MinecraftEvenings';
+    src: url(fonts/MinecraftEvenings.ttf);
+}
+
+@font-face {
+    font-family: 'MinecraftReg';
+    src: url(fonts/MinecrafterReg.ttf);
+}
+
+@font-face {
+    font-family: 'MinecraftAlt';
+    src: url(fonts/MinecrafterAlt.ttf);
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'MinecraftAlt';
+
+}
+
+.wrapper{
+    background: rgb(15, 15, 15);
+    position: relative;
+    width: 100%;
+}
+
+.wrapper nav{
+    display: flex;
+    max-width: calc(100% - 200px);
+    background: black;
+    margin: 0 auto;
+    height: 70px;
+    justify-content: space-between;
+}
+
+nav .content{
+    display: flex;
+    align-items: center;
+}
+
+nav .content .links{
+    margin-left: 80px;
+    display: flex;
+}
+
+.content .logo a{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.content .links li{
+    list-style: none;
+    
+}
+
+.content .links li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 9px 17px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.active{
+    background: rgb(35, 35, 35);
+}
+
+.content .links li:hover a{
+    background: rgb(35, 35, 35);
+}
+
+.wrapper .search-icon{
+    color: #fff;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background:  url('NoobKumar.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+
+.p-1{
+    color: purple;
+    font-size: 20px;
+    position: absolute;
+    top: 15%;
+    left: 1%;
+    -webkit-text-stroke: black 1px;
+    font-family: 'MinecraftReg';
+    float: left;
+}
+
+
+    
+
+
+.C:hover{
+    color: rgb(147, 3, 3);
+    -webkit-text-stroke: rgb(11, 11, 11) 1px;
+    
+    
+}
+
+
+.Download-Minecraftbtn{
+    background-color: rgb(152, 187, 152);
+    position: absolute;
+    margin: 0%;
+    transform: translate(-60%, -60%);
+    border: none;
+    font-family: 'MinecraftEvenings';
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 50px;
+    top: 60%;
+    left: 80%;
+    cursor: pointer;
+    border-radius: 15px;
+
+}
+
+.Tlauncherbtn{
+    background-color: green;
+    margin: 0%;
+    position: absolute;
+    transform: translate(-60%, -60%);
+    border: none;
+    font-family: 'MinecraftEvenings';
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 50px;
+    top: 60%;
+    left: 53.5%;
+    cursor: pointer;
+    border-radius: 15px;
+    
+}
+
+.My-Channelbtn{
+    background-color: rgb(255, 0, 0);
+    margin: 0%;
+    color: rgb(0, 0, 0);
+    transform: translate(-60%,-60%);
+    border: none;
+    font-family: 'MinecraftEvenings', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 50px;
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    cursor: pointer;
+    border-radius: 15px;
+    
+}
+
+.My-Channelbtn:hover{
+   background: rgb(184, 20, 20);
+   color: rgb(255, 190, 190);
+   -webkit-text-stroke: rgb(0, 0, 0) 1px;
+   font-size: 25px;
+   
+}
+.Tlauncherbtn:hover{
+background: rgb(68, 255, 0);
+color: rgb(20, 91, 0);
+-webkit-text-stroke: rgb(0, 0, 0) 1px;
+font-size: 25px;
+}
+    
+.Download-Minecraftbtn:hover{
+    background: rgb(203, 203, 203);
+    color: rgb(111, 106, 106);
+    -webkit-text-stroke: rgb(0, 0, 0) 1px;
+    font-size: 25px;
+}
+
+
+
+.thanks{
+    font-family: 'MinecraftEvenings';
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: 80%;
+    left: 1%;
+}
+
+/* Responive code start */
+@media screen and(max-width: 1250px){
+    .wrapper nav{
+        max-width: 100%;
+        padding: 0 20px;
+    }
+}
+    
+nav .content .links{
+    margin-left: 30px;
+}
+
+.content .links li a{
+    padding: 1px 13px;
+}
+
+@media  screen and (max-width: 900px){
+    nav .content .links{
+        display: block;
+        position: fixed;
+        background: rgb(15, 15, 15);
+        height: 100%;
+        width: 100%;
+        top: 70px;
+        left: 0;
+        margin-left: 0;
+        max-width: 350px;
+    }
+}
+
+.content .links li{
+    margin: 15px 20px;
+}
+
+.content .links li a{
+    line-height: 40px;
+    font-size: 20px;
+    display: block;
+    padding: 8px 18px;
+}
+
+
+

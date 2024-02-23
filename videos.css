@@ -1,0 +1,174 @@
+@font-face {
+    font-family: 'MinecraftEvenings';
+    src: url(fonts/MinecraftEvenings.ttf);
+}
+
+@font-face {
+    font-family: 'MinecraftReg';
+    src: url(fonts/MinecrafterReg.ttf);
+}
+
+@font-face {
+    font-family: 'MinecraftAlt';
+    src: url(fonts/MinecrafterAlt.ttf);
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'MinecraftAlt';
+
+}
+
+.wrapper{
+    background: rgb(15, 15, 15);
+    position: relative;
+    width: 100%;
+}
+
+.wrapper nav{
+    display: flex;
+    max-width: calc(100% - 200px);
+    background: black;
+    margin: 0 auto;
+    height: 70px;
+    justify-content: space-between;
+}
+
+nav .content{
+    display: flex;
+    align-items: center;
+}
+
+nav .content .links{
+    margin-left: 80px;
+    display: flex;
+}
+
+.content .logo a{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.content .links li{
+    list-style: none;
+    
+}
+
+.content .links li a{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 9px 17px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.activeyt{
+    background: rgb(35, 35, 35);
+}
+
+.content .links li:hover a{
+    background: rgb(35, 35, 35);
+}
+
+.wrapper .search-icon{
+    color: #fff;
+}
+
+.b2{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    background-image: linear-gradient(90deg, purple,blue, darkblue, blue,darkblue, blue, darkblue, purple);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position:  center;
+   
+}
+
+
+
+.vid1{
+    position: absolute;
+    top: 15%;
+    left: 1%;
+}
+
+.vid2{
+    position: absolute;
+    top: 65%;
+    left: 1%;
+}
+
+.vid3{
+    position: absolute;
+    top: 115%;
+    left: 1%;
+}
+
+.vid4{
+    position: absolute;
+    top: 155%;
+    left: 1%;
+}
+
+.vid5{
+    position: absolute;
+    top: 205%;
+    left: 1%;
+}
+
+.vid6{
+    position: absolute;
+    top: 255%;
+    left: 1%;
+}
+
+
+
+/* Responive code start */
+@media screen and(max-width: 1250px){
+    .wrapper nav{
+        max-width: 100%;
+        padding: 0 20px;
+    }
+}
+    
+nav .content .links{
+    margin-left: 30px;
+}
+
+.content .links li a{
+    padding: 1px 13px;
+}
+
+@media  screen and (max-width: 900px){
+    nav .content .links{
+        display: block;
+        position: fixed;
+        background: rgb(15, 15, 15);
+        height: 100%;
+        width: 100%;
+        top: 70px;
+        left: 0;
+        margin-left: 0;
+        max-width: 350px;
+    }
+}
+
+.content .links li{
+    margin: 15px 20px;
+}
+
+.content .links li a{
+    line-height: 40px;
+    font-size: 20px;
+    display: block;
+    padding: 8px 18px;
+}
