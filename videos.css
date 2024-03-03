@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'MinecraftEvenings';
-    src: url(MinecraftEvenings.ttf);
+    src: url(fonts/MinecraftEvenings.ttf);
 }
 
 @font-face {
     font-family: 'MinecraftReg';
-    src: url(MinecrafterReg.ttf);
+    src: url(fonts/MinecrafterReg.ttf);
 }
 
 @font-face {
     font-family: 'MinecraftAlt';
-    src: url(MinecrafterAlt.ttf);
+    src: url(fonts/MinecrafterAlt.ttf);
 }
 
 *{
@@ -26,6 +26,11 @@
     background: rgb(15, 15, 15);
     position: relative;
     width: 100%;
+}
+
+.cgsj2{
+    position: relative;
+    left: 5%;
 }
 
 .wrapper nav{
@@ -64,7 +69,7 @@ nav .content .links{
     font-weight: 500;
     padding: 9px 17px;
     border-radius: 10px;
-    transition: all 0.3s ease;
+    transition: all 1s ease;
 }
 
 .activeyt{
@@ -114,19 +119,19 @@ nav .content .links{
 
 .vid4{
     position: absolute;
-    top: 155%;
+    top: 165%;
     left: 1%;
 }
 
 .vid5{
     position: absolute;
-    top: 205%;
+    top: 215%;
     left: 1%;
 }
 
 .vid6{
     position: absolute;
-    top: 255%;
+    top: 265%;
     left: 1%;
 }
 
