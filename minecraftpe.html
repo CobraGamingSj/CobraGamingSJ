@@ -9,17 +9,17 @@
 
 @font-face {
     font-family: 'MinecraftEvenings';
-    src: url(MinecraftEvenings.ttf);
+    src: url(fonts/MinecraftEvenings.ttf);
 }
 
 @font-face {
     font-family: 'MinecraftReg';
-    src: url(MinecrafterReg.ttf);
+    src: url(fonts/MinecrafterReg.ttf);
 }
 
 @font-face {
     font-family: 'MinecraftAlt';
-    src: url(MinecrafterAlt.ttf);
+    src: url(fonts/MinecrafterAlt.ttf);
 }
    
 *{
@@ -36,6 +36,13 @@
     position: relative;
     width: 100%;
 }
+
+.cgsj1{
+    position: relative;
+    left: 5%;
+}
+
+
 
 .wrapper nav{
     display: flex;
@@ -73,7 +80,7 @@ nav .content .links{
     font-weight: 500;
     padding: 9px 17px;
     border-radius: 10px;
-    transition: all 0.3s ease;
+    transition: all 1s ease;
 }
 
 .activepe{
@@ -237,22 +244,20 @@ nav .content .links{
         <nav>
             
             <div class="content">
-                <div class="logo"><a href="#">Cobra Gaming SJ</a></div>
+                <div class="logo"><a class="cgsj1" href="https://www.youtube.com/@CGSJ08" target="_blank">Cobra Gaming SJ</a></div>
                 <ul class="links">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="https://tlauncher.org/en/" target="_blank">Tlauncher</a></li>
-                    <li><a class="activepe" href="minecraftpe.html" target="_blank">Download MCPE</a></li>
-                    <li><a href="videos.html" target="_blank">YouTube</a></li>
+                    <li><a href="https://tlauncher.org/en/">Tlauncher</a></li>
+                    <li><a class="activepe" href="minecraftpe.html">Download MCPE</a></li>
+                    <li><a href="videos.html">YouTube</a></li>
                 </ul>
             </div>
         </nav>
     </div>
   
-
-
     <AUDio autoplay loop class="mp3">
     
-    <SOUrce  src="C418 - Aria Math (Minecraft Volume Beta).mp3" type="AUDio/mp3"></SOUrce>
+    <SOUrce  src="BGM/C418 - Aria Math (Minecraft Volume Beta).mp3" type="AUDio/mp3"></SOUrce>
  
  </AUDio>
  
@@ -278,15 +283,6 @@ nav .content .links{
     </p>
 
 <button class="v1-20-40"  type="button" onclick="location.href='https://www.mediafire.com/file/q65hqcpj5oeizd7/minecraft-1-20-41Compressed.apk/file'" target="_blank">Download Minecraft 1.20.40</button>
-
-
-   
-
-
-
-
-
-
 
 
 </body>
