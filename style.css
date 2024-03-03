@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'MinecraftEvenings';
-    src: url(fonts/MinecraftEvenings.ttf);
+    src: url(MinecraftEvenings.ttf);
 }
 
 @font-face {
     font-family: 'MinecraftReg';
-    src: url(fonts/MinecrafterReg.ttf);
+    src: url(MinecrafterReg.ttf);
 }
 
 @font-face {
     font-family: 'MinecraftAlt';
-    src: url(fonts/MinecrafterAlt.ttf);
+    src: url(MinecrafterAlt.ttf);
 }
 
 *{
